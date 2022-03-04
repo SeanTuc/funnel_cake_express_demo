@@ -1,0 +1,309 @@
+Log created: 2022-02-18 01:24:27
+Type: backup
+[2022-02-18 01:24:46][notice]Start backing up.
+[2022-02-18 01:24:46][notice]server info fcgi:Off max execution time: 900 wp version:5.9 php version:8.0.14 db version:5.5.5 php ini:safe_mode: memory_limit:256M memory_get_usage:90.27 MB memory_get_peak_usage:91.76 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-02-18 01:24:46][notice]Prepare to backup backup_db files.
+[2022-02-18 01:24:46][notice]Start exporting database.
+[2022-02-18 01:24:46][notice]max_allowed_packet less than 32M :1.00 MB
+[2022-02-18 01:24:46][notice]Preparing to dump table wp_actionscheduler_actions
+[2022-02-18 01:24:46][notice]Preparing to dump table wp_actionscheduler_claims
+[2022-02-18 01:24:46][notice]Preparing to dump table wp_actionscheduler_groups
+[2022-02-18 01:24:46][notice]Preparing to dump table wp_actionscheduler_logs
+[2022-02-18 01:24:46][notice]Preparing to dump table wp_aioseo_notifications
+[2022-02-18 01:24:46][notice]Preparing to dump table wp_aioseo_posts
+[2022-02-18 01:24:46][notice]Preparing to dump table wp_commentmeta
+[2022-02-18 01:24:46][notice]Preparing to dump table wp_comments
+[2022-02-18 01:24:47][notice]Preparing to dump table wp_links
+[2022-02-18 01:24:47][notice]Preparing to dump table wp_options
+[2022-02-18 01:24:47][notice]Preparing to dump table wp_postmeta
+[2022-02-18 01:24:47][notice]Preparing to dump table wp_posts
+[2022-02-18 01:24:47][notice]Preparing to dump table wp_termmeta
+[2022-02-18 01:24:47][notice]Preparing to dump table wp_terms
+[2022-02-18 01:24:47][notice]Preparing to dump table wp_term_relationships
+[2022-02-18 01:24:48][notice]Preparing to dump table wp_term_taxonomy
+[2022-02-18 01:24:48][notice]Preparing to dump table wp_usermeta
+[2022-02-18 01:24:48][notice]Preparing to dump table wp_users
+[2022-02-18 01:24:48][notice]Preparing to dump table wp_wc_admin_notes
+[2022-02-18 01:24:48][notice]Preparing to dump table wp_wc_admin_note_actions
+[2022-02-18 01:24:48][notice]Preparing to dump table wp_wc_category_lookup
+[2022-02-18 01:24:48][notice]Preparing to dump table wp_wc_customer_lookup
+[2022-02-18 01:24:48][notice]Preparing to dump table wp_wc_download_log
+[2022-02-18 01:24:48][notice]Preparing to dump table wp_wc_order_coupon_lookup
+[2022-02-18 01:24:49][notice]Preparing to dump table wp_wc_order_product_lookup
+[2022-02-18 01:24:49][notice]Preparing to dump table wp_wc_order_stats
+[2022-02-18 01:24:49][notice]Preparing to dump table wp_wc_order_tax_lookup
+[2022-02-18 01:24:49][notice]Preparing to dump table wp_wc_product_meta_lookup
+[2022-02-18 01:24:49][notice]Preparing to dump table wp_wc_rate_limits
+[2022-02-18 01:24:49][notice]Preparing to dump table wp_wc_reserved_stock
+[2022-02-18 01:24:49][notice]Preparing to dump table wp_wc_tax_rate_classes
+[2022-02-18 01:24:49][notice]Preparing to dump table wp_wc_webhooks
+[2022-02-18 01:24:49][notice]Preparing to dump table wp_woocommerce_api_keys
+[2022-02-18 01:24:49][notice]Preparing to dump table wp_woocommerce_attribute_taxonomies
+[2022-02-18 01:24:49][notice]Preparing to dump table wp_woocommerce_downloadable_product_permissions
+[2022-02-18 01:24:50][notice]Preparing to dump table wp_woocommerce_log
+[2022-02-18 01:24:50][notice]Preparing to dump table wp_woocommerce_order_itemmeta
+[2022-02-18 01:24:50][notice]Preparing to dump table wp_woocommerce_order_items
+[2022-02-18 01:24:50][notice]Preparing to dump table wp_woocommerce_payment_tokenmeta
+[2022-02-18 01:24:50][notice]Preparing to dump table wp_woocommerce_payment_tokens
+[2022-02-18 01:24:50][notice]Preparing to dump table wp_woocommerce_sessions
+[2022-02-18 01:24:50][notice]Preparing to dump table wp_woocommerce_shipping_zones
+[2022-02-18 01:24:50][notice]Preparing to dump table wp_woocommerce_shipping_zone_locations
+[2022-02-18 01:24:50][notice]Preparing to dump table wp_woocommerce_shipping_zone_methods
+[2022-02-18 01:24:51][notice]Preparing to dump table wp_woocommerce_tax_rates
+[2022-02-18 01:24:51][notice]Preparing to dump table wp_woocommerce_tax_rate_locations
+[2022-02-18 01:24:51][notice]Preparing to dump table wp_wpforms_tasks_meta
+[2022-02-18 01:24:51][notice]Preparing to dump table wp_wpmailsmtp_debug_events
+[2022-02-18 01:24:51][notice]Preparing to dump table wp_wpmailsmtp_tasks_meta
+[2022-02-18 01:24:51][notice]Preparing to dump table wp_wpvivid_scan_result
+[2022-02-18 01:24:51][notice]Preparing to dump table wp_wpvivid_unused_uploads_files
+[2022-02-18 01:24:51][notice]Preparing to dump table wp_yith_wapo_addons
+[2022-02-18 01:24:51][notice]Preparing to dump table wp_yith_wapo_blocks
+[2022-02-18 01:24:52][notice]Preparing to dump table wp_yith_wccl_meta
+[2022-02-18 01:24:52][notice]Exporting database finished.
+[2022-02-18 01:24:52][notice]Start compressing backup_db
+[2022-02-18 01:24:52][notice]Prepare to zip files. file: 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_db.zip
+[2022-02-18 01:24:52][notice]Adding zip files completed.127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_db.zip, filesize: 15.32 MB
+[2022-02-18 01:24:52][notice]Compressing backup_db completed
+[2022-02-18 01:24:52][notice]Backing up backup_db completed.
+[2022-02-18 01:24:53][notice]Prepare to backup backup_themes files.
+[2022-02-18 01:24:53][notice]File number: 655
+[2022-02-18 01:24:53][notice]Start compressing backup_themes
+[2022-02-18 01:24:54][notice]Prepare to zip files. file: 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_themes.zip
+[2022-02-18 01:24:59][notice]Adding zip files completed.127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_themes.zip, filesize: 21.14 MB
+[2022-02-18 01:24:59][notice]Compressing backup_themes completed
+[2022-02-18 01:24:59][notice]Backing up backup_themes completed.
+[2022-02-18 01:25:02][notice]Prepare to backup backup_plugin files.
+[2022-02-18 01:25:02][notice]File number: 9017
+[2022-02-18 01:25:02][notice]Start compressing backup_plugin
+[2022-02-18 01:25:17][notice]Prepare to zip files. file: 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_plugin.zip
+[2022-02-18 01:26:44][notice]Adding zip files completed.127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_plugin.zip, filesize: 121.08 MB
+[2022-02-18 01:26:44][notice]Compressing backup_plugin completed
+[2022-02-18 01:26:44][notice]Backing up backup_plugin completed.
+[2022-02-18 01:26:44][notice]Prepare to backup backup_uploads files.
+[2022-02-18 01:26:44][notice]File number: 720
+[2022-02-18 01:26:44][notice]Start compressing backup_uploads
+[2022-02-18 01:26:45][notice]Prepare to zip files. file: 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_uploads.zip
+[2022-02-18 01:26:54][notice]Adding zip files completed.127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_uploads.zip, filesize: 136.99 MB
+[2022-02-18 01:26:54][notice]Compressing backup_uploads completed
+[2022-02-18 01:26:54][notice]Backing up backup_uploads completed.
+[2022-02-18 01:26:54][notice]Prepare to backup backup_content files.
+[2022-02-18 01:26:54][notice]File number: 3
+[2022-02-18 01:26:54][notice]Start compressing backup_content
+[2022-02-18 01:26:54][notice]Prepare to zip files. file: 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_content.zip
+[2022-02-18 01:26:54][notice]Adding zip files completed.127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_content.zip, filesize: 696.00 B
+[2022-02-18 01:26:54][notice]Compressing backup_content completed
+[2022-02-18 01:26:54][notice]Backing up backup_content completed.
+[2022-02-18 01:26:55][notice]Prepare to backup backup_core files.
+[2022-02-18 01:26:55][notice]File number: 2378
+[2022-02-18 01:26:55][notice]Start compressing backup_core
+[2022-02-18 01:26:59][notice]Prepare to zip files. file: 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_core.zip
+[2022-02-18 01:27:27][notice]Adding zip files completed.127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_core.zip, filesize: 47.06 MB
+[2022-02-18 01:27:27][notice]Compressing backup_core completed
+[2022-02-18 01:27:27][notice]Backing up backup_core completed.
+[2022-02-18 01:27:27][notice]Prepare to backup backup_merge files.
+[2022-02-18 01:27:27][notice]File number: 6
+[2022-02-18 01:27:27][notice]Start compressing backup_merge
+[2022-02-18 01:27:27][notice]Prepare to zip files. file: 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip
+[2022-02-18 01:27:31][notice]Adding zip files completed.127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip, filesize: 132.10 MB
+[2022-02-18 01:27:31][notice]Cleaned up file, filename: D:\xampp\apps\wordpress\htdocs/wp-content\wpvividbackups\127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_uploads.zip
+[2022-02-18 01:27:32][notice]Prepare to zip files. file: 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part002.zip
+[2022-02-18 01:27:37][notice]Adding zip files completed.127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part002.zip, filesize: 51.45 MB
+[2022-02-18 01:27:37][notice]Cleaned up file, filename: D:\xampp\apps\wordpress\htdocs/wp-content\wpvividbackups\127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_plugin.zip
+[2022-02-18 01:27:37][notice]Cleaned up file, filename: D:\xampp\apps\wordpress\htdocs/wp-content\wpvividbackups\127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_core.zip
+[2022-02-18 01:27:37][notice]Cleaned up file, filename: D:\xampp\apps\wordpress\htdocs/wp-content\wpvividbackups\127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_themes.zip
+[2022-02-18 01:27:37][notice]Prepare to zip files. file: 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part003.zip
+[2022-02-18 01:27:37][notice]Adding zip files completed.127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part003.zip, filesize: 15.32 MB
+[2022-02-18 01:27:37][notice]Cleaned up file, filename: D:\xampp\apps\wordpress\htdocs/wp-content\wpvividbackups\127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_db.zip
+[2022-02-18 01:27:37][notice]Cleaned up file, filename: D:\xampp\apps\wordpress\htdocs/wp-content\wpvividbackups\127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_content.zip
+[2022-02-18 01:27:37][notice]Compressing backup_merge completed
+[2022-02-18 01:27:37][notice]Backing up backup_merge completed.
+[2022-02-18 01:27:37][notice]Backup completed.
+[2022-02-18 01:27:37][notice]Backup succeeded.
+[2022-02-18 01:27:37][notice]Start upload.
+[2022-02-18 01:27:38][notice]Connect site 
+[2022-02-18 01:27:39][notice]Start uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip
+[2022-02-18 01:27:40][notice]{"result":"success","file_status":{"status":"start"}}
+[2022-02-18 01:27:40][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 0
+[2022-02-18 01:27:43][notice]finished send chunk
+[2022-02-18 01:27:44][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 2.00 MB speed:419.43kb/s
+[2022-02-18 01:27:44][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 2097152
+[2022-02-18 01:28:14][notice]finished send chunk
+[2022-02-18 01:28:14][warning]upload file error offset:2 MB error:cURL error 28: Operation timed out after 30010 milliseconds with 0 bytes received
+[2022-02-18 01:28:14][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 2097152
+[2022-02-18 01:28:17][notice]finished send chunk
+[2022-02-18 01:28:17][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 4.00 MB speed:63.55kb/s
+[2022-02-18 01:28:18][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 4194304
+[2022-02-18 01:28:36][notice]finished send chunk
+[2022-02-18 01:28:36][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 6.00 MB speed:116.51kb/s
+[2022-02-18 01:28:36][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 6291456
+[2022-02-18 01:29:06][notice]finished send chunk
+[2022-02-18 01:29:06][warning]upload file error offset:6 MB error:cURL error 28: Operation timed out after 30001 milliseconds with 0 bytes received
+[2022-02-18 01:29:06][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 6291456
+[2022-02-18 01:29:24][notice]finished send chunk
+[2022-02-18 01:29:24][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 8.00 MB speed:43.69kb/s
+[2022-02-18 01:29:25][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 8388608
+[2022-02-18 01:29:32][notice]finished send chunk
+[2022-02-18 01:29:32][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 10.00 MB speed:299.59kb/s
+[2022-02-18 01:29:32][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 10485760
+[2022-02-18 01:29:51][notice]finished send chunk
+[2022-02-18 01:29:51][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 12.00 MB speed:110.38kb/s
+[2022-02-18 01:29:52][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 12582912
+[2022-02-18 01:30:22][notice]finished send chunk
+[2022-02-18 01:30:22][warning]upload file error offset:12 MB error:cURL error 28: Operation timed out after 30013 milliseconds with 0 bytes received
+[2022-02-18 01:30:22][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 12582912
+[2022-02-18 01:30:45][notice]finished send chunk
+[2022-02-18 01:30:45][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 14.00 MB speed:38.84kb/s
+[2022-02-18 01:30:45][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 14680064
+[2022-02-18 01:30:49][notice]finished send chunk
+[2022-02-18 01:30:49][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 16.00 MB speed:524.29kb/s
+[2022-02-18 01:30:49][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 16777216
+[2022-02-18 01:31:19][notice]finished send chunk
+[2022-02-18 01:31:19][warning]upload file error offset:16 MB error:cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[2022-02-18 01:31:19][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 16777216
+[2022-02-18 01:31:49][notice]finished send chunk
+[2022-02-18 01:31:49][error]Uploading the file ends with an error cURL error 28: Operation timed out after 30000 milliseconds with 0 bytes received
+[2022-02-18 01:31:49][notice]Add resume event succeeded.. arg1:1645147969 arg2:wpvivid_resume_schedule_event arg3:wpvivid-620ef54b0fc7b
+[2022-02-18 01:31:49][error]Task timed out (WebHosting).
+[2022-02-18 01:32:50][notice]Start upload.
+[2022-02-18 01:32:50][notice]Connect site 
+[2022-02-18 01:32:51][notice]Start uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip
+[2022-02-18 01:32:52][notice]{"result":"success","file_status":{"status":"continue","offset":16777216}}
+[2022-02-18 01:32:52][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 16777216
+[2022-02-18 01:32:56][notice]finished send chunk
+[2022-02-18 01:32:56][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 18.00 MB speed:3774.87kb/s
+[2022-02-18 01:32:56][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 18874368
+[2022-02-18 01:33:15][notice]finished send chunk
+[2022-02-18 01:33:16][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 20.00 MB speed:104.86kb/s
+[2022-02-18 01:33:16][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 20971520
+[2022-02-18 01:33:30][notice]finished send chunk
+[2022-02-18 01:33:30][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 22.00 MB speed:149.8kb/s
+[2022-02-18 01:33:30][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 23068672
+[2022-02-18 01:33:57][notice]finished send chunk
+[2022-02-18 01:33:57][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 24.00 MB speed:77.67kb/s
+[2022-02-18 01:33:57][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 25165824
+[2022-02-18 01:34:19][notice]finished send chunk
+[2022-02-18 01:34:19][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 26.00 MB speed:95.33kb/s
+[2022-02-18 01:34:19][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 27262976
+[2022-02-18 01:34:25][notice]finished send chunk
+[2022-02-18 01:34:25][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 28.00 MB speed:349.53kb/s
+[2022-02-18 01:34:25][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 29360128
+[2022-02-18 01:34:55][notice]finished send chunk
+[2022-02-18 01:34:55][warning]upload file error offset:28 MB error:cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[2022-02-18 01:34:55][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 29360128
+[2022-02-18 01:34:58][notice]finished send chunk
+[2022-02-18 01:34:58][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 30.00 MB speed:63.55kb/s
+[2022-02-18 01:34:58][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 31457280
+[2022-02-18 01:35:16][notice]finished send chunk
+[2022-02-18 01:35:16][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 32.00 MB speed:116.51kb/s
+[2022-02-18 01:35:16][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 33554432
+[2022-02-18 01:35:46][notice]finished send chunk
+[2022-02-18 01:35:46][warning]upload file error offset:32 MB error:cURL error 28: Operation timed out after 30007 milliseconds with 0 bytes received
+[2022-02-18 01:35:46][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 33554432
+[2022-02-18 01:35:50][notice]finished send chunk
+[2022-02-18 01:35:50][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 34.00 MB speed:61.68kb/s
+[2022-02-18 01:35:50][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 35651584
+[2022-02-18 01:36:20][notice]finished send chunk
+[2022-02-18 01:36:20][warning]upload file error offset:34 MB error:cURL error 28: Operation timed out after 30007 milliseconds with 0 bytes received
+[2022-02-18 01:36:20][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 35651584
+[2022-02-18 01:36:24][notice]finished send chunk
+[2022-02-18 01:36:24][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 36.00 MB speed:61.68kb/s
+[2022-02-18 01:36:24][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 37748736
+[2022-02-18 01:36:27][notice]finished send chunk
+[2022-02-18 01:36:27][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 39845888
+[2022-02-18 01:36:50][notice]finished send chunk
+[2022-02-18 01:36:50][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 40.00 MB speed:161.32kb/s
+[2022-02-18 01:36:50][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 41943040
+[2022-02-18 01:37:20][notice]finished send chunk
+[2022-02-18 01:37:20][warning]upload file error offset:40 MB error:cURL error 28: Operation timed out after 30002 milliseconds with 0 bytes received
+[2022-02-18 01:37:20][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 41943040
+[2022-02-18 01:37:32][notice]finished send chunk
+[2022-02-18 01:37:32][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 42.00 MB speed:49.93kb/s
+[2022-02-18 01:37:32][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 44040192
+[2022-02-18 01:37:36][notice]finished send chunk
+[2022-02-18 01:37:36][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 44.00 MB speed:524.29kb/s
+[2022-02-18 01:37:37][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 46137344
+[2022-02-18 01:38:07][notice]finished send chunk
+[2022-02-18 01:38:07][error]Uploading the file ends with an error cURL error 28: Operation timed out after 30013 milliseconds with 0 bytes received
+[2022-02-18 01:38:07][notice]Add resume event succeeded.. arg1:1645148347 arg2:wpvivid_resume_schedule_event arg3:wpvivid-620ef54b0fc7b
+[2022-02-18 01:38:07][error]Task timed out (WebHosting).
+[2022-02-18 01:39:08][notice]Start upload.
+[2022-02-18 01:39:08][notice]Connect site 
+[2022-02-18 01:39:09][notice]Start uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip
+[2022-02-18 01:39:10][notice]{"result":"success","file_status":{"status":"continue","offset":46137344}}
+[2022-02-18 01:39:10][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 46137344
+[2022-02-18 01:39:40][notice]finished send chunk
+[2022-02-18 01:39:40][warning]upload file error offset:44 MB error:cURL error 28: Operation timed out after 30002 milliseconds with 0 bytes received
+[2022-02-18 01:39:40][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 46137344
+[2022-02-18 01:40:04][notice]finished send chunk
+[2022-02-18 01:40:04][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 46.00 MB speed:876.99kb/s
+[2022-02-18 01:40:04][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 48234496
+[2022-02-18 01:40:27][notice]finished send chunk
+[2022-02-18 01:40:27][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 48.00 MB speed:91.18kb/s
+[2022-02-18 01:40:27][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 50331648
+[2022-02-18 01:40:47][notice]finished send chunk
+[2022-02-18 01:40:47][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 50.00 MB speed:104.86kb/s
+[2022-02-18 01:40:47][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 52428800
+[2022-02-18 01:41:17][notice]finished send chunk
+[2022-02-18 01:41:17][warning]upload file error offset:50 MB error:cURL error 28: Operation timed out after 30013 milliseconds with 0 bytes received
+[2022-02-18 01:41:17][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 52428800
+[2022-02-18 01:41:21][notice]finished send chunk
+[2022-02-18 01:41:21][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 52.00 MB speed:61.68kb/s
+[2022-02-18 01:41:21][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 54525952
+[2022-02-18 01:41:42][notice]finished send chunk
+[2022-02-18 01:41:42][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 54.00 MB speed:99.86kb/s
+[2022-02-18 01:41:42][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 56623104
+[2022-02-18 01:41:45][notice]finished send chunk
+[2022-02-18 01:41:45][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 58720256
+[2022-02-18 01:42:15][notice]finished send chunk
+[2022-02-18 01:42:15][warning]upload file error offset:56 MB error:cURL error 28: Operation timed out after 30014 milliseconds with 0 bytes received
+[2022-02-18 01:42:15][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 58720256
+[2022-02-18 01:42:26][notice]finished send chunk
+[2022-02-18 01:42:26][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 58.00 MB speed:95.33kb/s
+[2022-02-18 01:42:26][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 60817408
+[2022-02-18 01:42:56][notice]finished send chunk
+[2022-02-18 01:42:56][warning]upload file error offset:58 MB error:cURL error 28: Operation timed out after 30004 milliseconds with 0 bytes received
+[2022-02-18 01:42:56][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 60817408
+[2022-02-18 01:43:18][notice]finished send chunk
+[2022-02-18 01:43:18][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 60.00 MB speed:40.33kb/s
+[2022-02-18 01:43:18][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 62914560
+[2022-02-18 01:43:24][notice]finished send chunk
+[2022-02-18 01:43:24][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 62.00 MB speed:349.53kb/s
+[2022-02-18 01:43:24][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 65011712
+[2022-02-18 01:43:50][notice]finished send chunk
+[2022-02-18 01:43:50][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 64.00 MB speed:80.66kb/s
+[2022-02-18 01:43:50][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 67108864
+[2022-02-18 01:44:12][notice]finished send chunk
+[2022-02-18 01:44:12][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 66.00 MB speed:95.33kb/s
+[2022-02-18 01:44:12][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 69206016
+[2022-02-18 01:44:33][notice]finished send chunk
+[2022-02-18 01:44:33][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 68.00 MB speed:99.86kb/s
+[2022-02-18 01:44:33][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 71303168
+[2022-02-18 01:45:03][notice]finished send chunk
+[2022-02-18 01:45:03][error]Uploading the file ends with an error cURL error 28: Operation timed out after 30000 milliseconds with 0 bytes received
+[2022-02-18 01:45:03][notice]Add resume event succeeded.. arg1:1645148763 arg2:wpvivid_resume_schedule_event arg3:wpvivid-620ef54b0fc7b
+[2022-02-18 01:45:03][error]Task timed out (WebHosting).
+[2022-02-18 01:46:04][notice]Start upload.
+[2022-02-18 01:46:04][notice]Connect site 
+[2022-02-18 01:46:05][notice]Start uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip
+[2022-02-18 01:46:06][notice]{"result":"success","file_status":{"status":"continue","offset":71303168}}
+[2022-02-18 01:46:06][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 71303168
+[2022-02-18 01:46:23][notice]finished send chunk
+[2022-02-18 01:46:24][notice]Uploading 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip Total size: 132.10 MB Uploaded: 70.00 MB speed:3863.17kb/s
+[2022-02-18 01:46:24][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 73400320
+[2022-02-18 01:46:27][notice]finished send chunk
+[2022-02-18 01:46:27][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 75497472
+[2022-02-18 01:46:57][notice]finished send chunk
+[2022-02-18 01:46:57][warning]upload file error offset:72 MB error:cURL error 28: Operation timed out after 30008 milliseconds with 0 bytes received
+[2022-02-18 01:46:57][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 75497472
+[2022-02-18 01:47:31][notice]finished send chunk
+[2022-02-18 01:47:31][warning]upload file error offset:72 MB error:cURL error 18: transfer closed with outstanding read data remaining
+[2022-02-18 01:47:31][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 75497472
+[2022-02-18 01:48:26][notice]finished send chunk
+[2022-02-18 01:48:26][warning]upload file error offset:72 MB error:cURL error 28: Operation timed out after 30006 milliseconds with 0 bytes received
+[2022-02-18 01:48:26][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 75497472
+[2022-02-18 01:49:07][notice]finished send chunk
+[2022-02-18 01:49:07][warning]upload file error offset:72 MB error:cURL error 28: Operation timed out after 30005 milliseconds with 0 bytes received
+[2022-02-18 01:49:07][notice]send chunk 127.0.0.1_wordpress_wpvivid-620ef54b0fc7b_2022-02-18-01-24_backup_all.part001.zip offset 75497472
+[2022-02-18 01:50:07][notice]finished send chunk
+[2022-02-18 01:50:07][error]Uploading the file ends with an error cURL error 28: Operation timed out after 30000 milliseconds with 0 bytes received
+[2022-02-18 01:50:07][notice]Backup cancelled.
