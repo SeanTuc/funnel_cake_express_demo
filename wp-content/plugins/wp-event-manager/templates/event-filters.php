@@ -33,8 +33,6 @@
 			
 
 			<!-- Search by date section start -->
-
-			<!-- ***********************************************************  remove all of this code to remove date time search*******************************************************-->
 			<?php if ( $datetimes) : ?>	
 
 				<?php

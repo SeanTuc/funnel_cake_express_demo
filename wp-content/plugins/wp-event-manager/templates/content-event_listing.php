@@ -15,11 +15,10 @@ $thumbnail  = get_event_thumbnail($post,'full');
     <!----- wpem-col-lg-4 value can be change by admin settings ------->
     <div class="wpem-event-layout-wrapper">
         <div <?php event_listing_class(''); ?>>
-            <a href="<?php display_event_permalink(); ?>" class="wpem-event-action-url event-style-color <?php echo $event_type; ?>">
+            <a href="<?php display_event_permalink(); ?>" class="wpem-event-action-url event-style-color <?php echo esc_attr($event_type); ?>">
                 <div class="wpem-event-banner">
                     <div class="wpem-event-banner-img" style="background-image: url(<?php echo $thumbnail ?>)">
 
-                    
                         <!-- Hide in list View // Show in Box View -->
                         <?php do_action('event_already_registered_title'); ?>     
                         <div class="wpem-event-date">
@@ -33,12 +32,9 @@ $thumbnail  = get_event_thumbnail($post,'full');
                                         <div class="wpem-month"><?php echo date_i18n('M', strtotime($start_date)); ?></div>
                                     </div>
                                 <?php } ?>
-                            </div>                            
+                            </div>
                         </div>
                         <!-- Hide in list View // Show in Box View -->
-
-
-
                     </div>
                 </div>
 
@@ -102,11 +98,6 @@ $thumbnail  = get_event_thumbnail($post,'full');
                                 <?php display_event_end_time(); ?>
                             </span>
                         </div>
-
-
-                        <?php    ?>
-                        <!-- **********************   End of time display *********************** -->
-
 
                         <div class="wpem-event-location">
                             <span class="wpem-event-location-text">
